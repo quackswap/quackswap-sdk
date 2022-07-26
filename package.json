@@ -1,7 +1,7 @@
 {
-  "name": "@quackawap/sdk",
+  "name": "@hotcrosscom/quackswap-sdk",
   "license": "MIT",
-  "version": "2.0.11",
+  "version": "1.0.0",
   "description": "🛠 An SDK for building applications on top of QuackSwap.",
   "main": "dist/index.js",
   "typings": "dist/index.d.ts",
@@ -49,6 +49,10 @@
   },
   "engines": {
     "node": ">=10"
+  },
+  "publishConfig": {
+    "access": "public",
+    "registry": "https://npm.pkg.github.com"
   },
   "prettier": {
     "printWidth": 120,
