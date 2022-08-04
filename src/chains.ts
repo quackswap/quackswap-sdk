@@ -234,31 +234,18 @@ export const BITTORRENT_MAINNET: Chain = {
     exchange: 'https://graph.hotcross.dev/subgraphs/name/bttc-dex',
   },
   contracts: {
-    quack_token: '0xC0e303034B59132E4F5230ac53F076C4D682431e',
-    factory: '0xEd69D8ae94576Ed6455EDE5bfAF319728CFCA407',
-    router: '0x672B4326AcDA2D186F117A102E779E54D5a536CE',
-    wrapped_native_token: '0xD827bA08b294c17D4C42231f516c60E6eF9772A3',
-    timelock: "",
-    master_chef: "0x06A2505a99eDB4DBaC94A388B5a4Ca7b48919fbA",
-    community_treasury: "0xFF3bd31F55d0051af4C413D0875387591eF1d79b",
-    airdrop: "",
-    treasury_vester: "",
-    revenue_distributor: "",
-    fee_collector: "0xEB253ecB4a8F4e21A2c1686DfF899CeBFF855647",
-    staking: [
-      {
-        address: "0xF6a424888443E123c964279c4d7d80DA7AF32Ea3",
-        active: false,
-        reward_token: "0xC0e303034B59132E4F5230ac53F076C4D682431e"
-      }
-    ]
+    quack_token: '0x203F4e30Fd3e7691E542855CA07252b7E49dD9f5',
+    factory: '0x3DDf2e37AE8C27b17d108610D0f7d204304cc314',
+    router: '0xE24B74ddC8c91EE86918734C6612d629F4F79C5b',
+    wrapped_native_token: '0x7268a734aA5fd513a475A8C6853F0154BBbe9F45',
+    master_chef: "0x93b98df7e3573Af741Ec09e254EC4f105ae63481"
   },
   nativeCurrency:{
     name: 'BitTorrent',
     symbol: 'BTT',
     decimals: 18,
   },
-  blockExplorerUrls: ['https://scan.bt.io'],
+  blockExplorerUrls: ['https://bttcscan.com'],
 }
 
 export const BITTORRENT_DONAU: Chain = {
