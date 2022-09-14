@@ -1,14 +1,14 @@
 {
-  "name": "@hotcrosscom/quackswap-sdk",
+  "name": "@quackswap/sdk",
   "license": "MIT",
-  "version": "1.1.0",
+  "version": "1.0.0",
   "description": "🛠 An SDK for building applications on top of QuackSwap.",
   "main": "dist/index.js",
   "typings": "dist/index.d.ts",
   "files": [
     "dist"
   ],
-  "repository": "https://github.com/hotcrosscom/quackswap-sdk",
+  "repository": "https://github.com/quackswap/quackswap-sdk",
   "keywords": [
     "quackswap",
     "bttc"
