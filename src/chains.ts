@@ -225,20 +225,20 @@ export const BITTORRENT_MAINNET: Chain = {
   quack_symbol: 'QUACK',
   mainnet: true,
   evm: true,
-  logo: 'https://raw.githubusercontent.com/pangolindex/sdk/master/src/images/chains/btt.png',
+  logo: 'https://raw.githubusercontent.com/quackswap/quackswap-sdk/main/src/images/chains/btt.png',
   quackswap_is_live: true,
   tracked_by_debank: true,
   supported_by_gelato: false,
   rpc_uri: 'https://rpc.bt.io',
   subgraph: {
-    exchange: 'https://graph.hotcross.dev/subgraphs/name/bttc-dex',
+    exchange: 'https://graph.quackswap.xyz/subgraphs/name/bttc-dex',
   },
   contracts: {
-    quack_token: '0x203F4e30Fd3e7691E542855CA07252b7E49dD9f5',
-    factory: '0x3DDf2e37AE8C27b17d108610D0f7d204304cc314',
-    router: '0xE24B74ddC8c91EE86918734C6612d629F4F79C5b',
-    wrapped_native_token: '0x7268a734aA5fd513a475A8C6853F0154BBbe9F45',
-    master_chef: "0x93b98df7e3573Af741Ec09e254EC4f105ae63481"
+    quack_token: '0x54f0f82b7571f44d0eaa1de4188f14d394d9b2fc',
+    factory: '0x414d273c11d7e605160ad6880010ec3902d65213',
+    router: '0xaf41882b8dd812396028f078d0617e35c572871b',
+    wrapped_native_token: '0x8d193c6efa90bcff940a98785d1ce9d093d3dc8a',
+    master_chef: "0x13407ad6f2d35c8a1eadfd975f283217fef311d8"
   },
   nativeCurrency:{
     name: 'BitTorrent',
