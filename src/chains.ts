@@ -234,11 +234,11 @@ export const BITTORRENT_MAINNET: Chain = {
     exchange: 'https://graph.quackswap.xyz/subgraphs/name/bttc-dex',
   },
   contracts: {
-    quack_token: '0x54f0f82b7571f44d0eaa1de4188f14d394d9b2fc',
-    factory: '0x414d273c11d7e605160ad6880010ec3902d65213',
-    router: '0xaf41882b8dd812396028f078d0617e35c572871b',
-    wrapped_native_token: '0x8d193c6efa90bcff940a98785d1ce9d093d3dc8a',
-    master_chef: "0x13407ad6f2d35c8a1eadfd975f283217fef311d8"
+    quack_token: '0x54f0f82B7571F44D0EaA1dE4188f14D394d9b2fc',
+    factory: '0x414d273c11D7E605160ad6880010eC3902d65213',
+    router: '0xAF41882B8dd812396028F078D0617e35C572871b',
+    wrapped_native_token: '0x8D193c6efa90BCFf940A98785d1Ce9D093d3DC8A',
+    master_chef: "0x13407ad6F2D35c8a1eAdFd975f283217FeF311d8"
   },
   nativeCurrency:{
     name: 'BitTorrent',
